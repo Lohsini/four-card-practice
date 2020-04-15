@@ -1,0 +1,92 @@
+$font-family: 'Poppins', sans-serif;
+$font-size: 15px;
+$VeryDarkBlue: hsl(234, 12%, 34%);
+$GrayishBlue: hsl(229, 6%, 66%);
+$VeryLightGray: hsl(0, 0%, 90%);
+
+* {
+  font-family: $font-family;
+}
+
+.head {
+  text-align: center;
+  max-width: 550px;
+  margin: 50px auto;
+  color: $VeryDarkBlue;
+
+  h1 {
+    font-weight: 200;
+    margin: 0;
+  }
+
+  .other_h1 {
+    font-weight: 600;
+    margin: 0;
+  }
+
+  p {
+    color: $GrayishBlue;
+    margin: 20px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .head h1{
+    font-size: 1.5rem;
+  }
+}
+
+.card_family {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .card {
+    border-radius: 5px;
+    box-shadow: 5px 10px 20px $VeryLightGray;
+    background-color: white;
+    padding: 30px;
+  }
+
+  .card h5 {
+    font-weight: 600;
+    color: $VeryDarkBlue;
+  }
+
+  .card p {
+    font-size: $font-size;
+    color: $GrayishBlue;
+  }
+
+  .card img {
+    display: block;
+    margin-left: auto;
+  }
+
+  .supervisor {
+    border-top: solid 5px hsl(180, 62%, 55%);
+  }
+
+  .builder {
+    margin: 20px 0;
+    border-top: solid 5px hsl(0, 78%, 62%);
+  }
+
+  .karma {
+    margin: 20px 0;
+    border-top: solid 5px hsl(34, 97%, 64%);
+  }
+
+  .calculator {
+    border-top: solid 5px hsl(212, 86%, 64%);
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 20px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

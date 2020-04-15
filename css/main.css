@@ -1,0 +1,75 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.head {
+  text-align: center;
+  max-width: 550px;
+  margin: 50px auto;
+  color: #4c4e61;
+}
+.head h1 {
+  font-weight: 200;
+  margin: 0;
+}
+.head .other_h1 {
+  font-weight: 600;
+  margin: 0;
+}
+.head p {
+  color: #a3a5ae;
+  margin: 20px;
+}
+
+@media screen and (max-width: 550px) {
+  .head h1 {
+    font-size: 1.5rem;
+  }
+}
+.card_family {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card_family .card {
+  border-radius: 5px;
+  box-shadow: 5px 10px 20px #e6e6e6;
+  background-color: white;
+  padding: 30px;
+}
+.card_family .card h5 {
+  font-weight: 600;
+  color: #4c4e61;
+}
+.card_family .card p {
+  font-size: 15px;
+  color: #a3a5ae;
+}
+.card_family .card img {
+  display: block;
+  margin-left: auto;
+}
+.card_family .supervisor {
+  border-top: solid 5px #45d3d3;
+}
+.card_family .builder {
+  margin: 20px 0;
+  border-top: solid 5px #ea5353;
+}
+.card_family .karma {
+  margin: 20px 0;
+  border-top: solid 5px #fcaf4a;
+}
+.card_family .calculator {
+  border-top: solid 5px #549ef2;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 20px;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
